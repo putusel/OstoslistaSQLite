@@ -1,5 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { AsyncStorage } from'@react-native-async-storage/async-storage';
+import * as SQLite from'expo-sqlite';
 
 export default function App() {
   return (
